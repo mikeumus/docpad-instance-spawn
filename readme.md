@@ -1,10 +1,5 @@
-# iconmonstr icons for DocPad
-### via Eco functions
+# DocPad Instance Spawn
 
-![Alt text](https://googledrive.com/host/0B9LVk4xbDIJTSWVYcU5fb0RUVVk/iconmonstrs.png "Some icons available screenshot.")
+#### Purposed to provide a function to spawn DocPad instances on unique ports. 
 
-Function:
-getIconmonstrBlock(`iconName`,`iconId`,`iconClass`)
-
-Real world example:
-`<%- @getIconmonstrBlock('globe','fredsId','iconmonstr-head-nav') %>`
+`docpadSpawn('9966')`
