@@ -1,17 +1,16 @@
 {
-  "name": "docpad-plugin-iconmonstr",
-  "version": "2.0.15",
-  "description": "Eco iconmonstr SVG Funcs for Docpad via getBlock codes.",
-  "homepage": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git",
+  "name": "docpad-instance-spawn",
+  "version": "0.0.0-1",
+  "description": "A function to spawn DocPad instances on unique ports.",
+  "homepage": "https://github.com/mikeumus/docpad-instance-spawn.git",
   "keywords": [
     "docpad",
-    "docpad-plugin",
-    "iconmonstr",
-    "svg", "svg icon", "svgs", "icons"
+    "docpad-instance", "instances", "instance",
+    "express", "express-server"
   ],
   "author": {
     "name": "MDM Inc",
-    "email": "sales@mdm.cc",
+    "email": "mike@mdm.cc",
     "url": "http://mdm.cm"
   },
   "maintainers": [
@@ -29,20 +28,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git/issues"
+    "url": "https://github.com/mikeumus/docpad-instance-spawn.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git"
+    "url": "https://github.com/mikeumus/docpad-instance-spawn.git"
   },
   "engines": {
-    "node": ">=0.8.x",
+    "node": ">=0.10.x",
     "docpad": ">=6.x"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {"coffee-script": "~1.6.2"},
   "main": "./docpad-instance-spawn.coffee",
-  "readmeFilename": "README.md",
-  "_id": "docpad-plugin-iconmonstr@2.0.0",
-  "_from": "docpad-plugin-iconmonstr@"
+  "readmeFilename": "readme.md"
 }
