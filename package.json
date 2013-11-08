@@ -40,6 +40,6 @@
   },
   "dependencies": {},
   "devDependencies": {"coffee-script": "~1.6.2"},
-  "main": "./docpad-instance-spawn.coffee",
+  "main": "./docpad-instance-spawn.js",
   "readmeFilename": "readme.md"
 }
