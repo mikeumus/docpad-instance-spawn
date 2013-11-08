@@ -1,6 +1,6 @@
 {
   "name": "docpad-instance-spawn",
-  "version": "0.0.0-2",
+  "version": "0.0.0-3",
   "description": "A function to spawn DocPad instances on unique ports.",
   "homepage": "https://github.com/mikeumus/docpad-instance-spawn.git",
   "keywords": [
