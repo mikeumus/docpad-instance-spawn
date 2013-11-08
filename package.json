@@ -39,9 +39,11 @@
     "docpad": ">=6.x"
   },
   "dependencies": {
+    "express": "~3.4.4",
+    "docpad": "~6.54.4",
     "docpad-instance-spawn": "~0.0.0-2"
     },
-  "devDependencies": {"coffee-script": "~1.6.2"},
+  "devDependencies": {},
   "main": "./docpad-instance-spawn.js",
   "readmeFilename": "readme.md"
 }
