@@ -40,4 +40,5 @@ module.exports = (spawnDocpad) ->
 					return console.log(err.stack)  if err
 					console.log "DocPad server running."
 			)
-		return spawnDocpad
+			
+		return this
