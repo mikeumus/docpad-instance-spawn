@@ -1,6 +1,6 @@
 {
   "name": "docpad-instance-spawn",
-  "version": "0.0.0-1",
+  "version": "0.0.0-2",
   "description": "A function to spawn DocPad instances on unique ports.",
   "homepage": "https://github.com/mikeumus/docpad-instance-spawn.git",
   "keywords": [
@@ -38,7 +38,9 @@
     "node": ">=0.10.x",
     "docpad": ">=6.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "docpad-instance-spawn": "~0.0.0-2"
+    },
   "devDependencies": {"coffee-script": "~1.6.2"},
   "main": "./docpad-instance-spawn.js",
   "readmeFilename": "readme.md"
