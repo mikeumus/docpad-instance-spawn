@@ -1,6 +1,6 @@
 # DocPad Instance Spawn
 
-#### Purposed to provide a function to spawn DocPad instances on unique ports. 
+#### Ffunction to spawn DocPad instances on unique ports via htt-proxy module. 
 
 `docpadSpawn(port)`
 

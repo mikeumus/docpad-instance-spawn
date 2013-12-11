@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "express": "~3.4.4",
-    "docpad": "~6.54.4",
-    "docpad-instance-spawn": "~0.0.0-2"
+    "docpad": "~6.57.1",
+    "http-proxy": "https://github.com/nodejitsu/node-http-proxy/tarball/caronte"
     },
   "devDependencies": {},
   "main": "./docpad-instance-spawn.js",

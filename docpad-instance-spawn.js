@@ -5,10 +5,13 @@ module.exports = function spawnDocpad(port){
     // if (!(this instanceof spawnDocpad)) return new spawnDocpad;
     
   // Create Server and Express Application
-    var express = require('express');
-    var http = require('http');
-    var app = express();
-    var server = http.createServer(app).listen(port);
+    var express = require('express'),
+        http = require('http'),
+        httpProxy = require('http-proxy'),
+        app = express();
+
+    httpProxy.createProxyServer({target:'http://localhost:8080'}).listen(port);
+    // var server = http.createServer(app).listen(docport);
     
     // Add our Application Middlewares
     app.use(app.router);
@@ -17,7 +20,7 @@ module.exports = function spawnDocpad(port){
     var docpadInstanceConfiguration = {
         // Give it our express application and http server
         serverExpress: app,
-        serverHttp: server,
+        serverHttp: httpProxy,
     
         // Tell it not to load the standard middlewares (as we handled that above)
         middlewareStandard: false
